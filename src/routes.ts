@@ -10,6 +10,6 @@ export default function routes(app: Application): void {
   app.use("/api/categories", categoriesRouter);
   app.use("/api/follow", followRouter);
   app.use("/ping", (req, res) => {
-    res.json("Working");
+    res.json("Working as it should");
   });
 }
