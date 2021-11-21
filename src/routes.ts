@@ -12,4 +12,5 @@ export default function routes(app: Application): void {
   app.use("/ping", (req, res) => {
     res.json("Working as it should");
   });
+  console.log("STARTED");
 }
